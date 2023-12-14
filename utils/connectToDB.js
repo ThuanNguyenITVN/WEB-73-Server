@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // Connect MongoDB URL
-const mongoDBUrl = "mongodb+srv://nguyenminhthuan2003st:1865@web-73.xe3cy4r.mongodb.net/?retryWrites=true&w=majority"; // Update to use 127.0.0.1
+const mongoDBUrl = "mongodb+srv://nguyenminhthuan2003st:1865@serverblog.qu2f9fp.mongodb.net/?retryWrites=true&w=majority"; // Update to use 127.0.0.1
 const client = new MongoClient(mongoDBUrl);
 
 // Database Name
